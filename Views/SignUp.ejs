@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LogIn </title>
+    <title>Sign Up </title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="form-container">
         <h2>Sign Up</h2>
-        <form action="/login" method="post">
+        <form action="/SignUp" method="post">
             <div class="form-group">
                 <label for="name">Name:</label><br><br>
                 <input type="text" name="username" id="name" placeholder="Enter Your Name" required autocomplete="off">
@@ -18,9 +18,9 @@
                 <label for="Password">Password:</label><br><br>
                 <input type="password" name="password" id="password" placeholder="Password" required autocomplete="off">
             </div><br>
-            <button type="submit" class="submit-btn">Login</button>
+            <button type="submit" class="submit-btn">Sign Up</button>
         </form><br>
-        <p>Don't have an account?<a href="/Login">Login </a></p>
+        <!-- <p>Don't have an account?<a href="login.ejs">Login </a></p> -->
     </div>
 </body>
 </html>
